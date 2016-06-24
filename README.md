@@ -1,3 +1,5 @@
+Technology: Java, Android Marshmallow (Android 6.0)
+
 1. A simple chatApp where clients exchange chat messages through a Web service. Given is a simple chat server (ChatServer.jar) that apps communicate with via HTTP. Used the HttpURLConnection class to implement your Web service client.
 2. The main user interface for the app is a screen with a text box for entering a message to be sent, and a “send” button. The rest of the screen is a list view that shows the messages posted by this app. There is a settings screen where the server URI and this chat instance’s client name can be specified, which is saved in shared preferences.
 3. First screen is the registration which generates a unique identifier (using the Java UUID class) to identify the app installation.
